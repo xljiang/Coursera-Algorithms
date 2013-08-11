@@ -25,10 +25,8 @@ public class dijkstra {
 	public static void main(String[] args){
 		// read file
 		readInFile(FILENAME);
-		
 		// run dijkstra's algorithm
 		dijkstraRun();
-		
 		// print out the result
 		System.out.println("node: shoretest length between the node and node 1");
 		for(int i = 0; i < A.length; i++){
@@ -101,7 +99,6 @@ public class dijkstra {
 		    	System.exit(0);		    
 		    } 
 	}
-	
 	
 	/** read one line and put the structure into the graph */
 	private static void lineToHashMap(String line){
