@@ -86,7 +86,7 @@ public class MaxHeap {
 		}
 	}
 	
-	// maxHeapInsert
+	/** maxHeapInsert */
 	public void insert(int key){
 		heapsize++;
 		A.add(Integer.MIN_VALUE);
