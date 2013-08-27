@@ -58,7 +58,7 @@ public class MaxHeap {
 	
 	public int getMax(){
 		if(heapsize < 1){
-			return Integer.MIN_VALUE;
+			return Integer.MIN_VALUE; // heap underflow
 		}
 		return A.get(1);
 	}
